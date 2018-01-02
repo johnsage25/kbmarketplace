@@ -1,0 +1,359 @@
+/**
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future.If you wish to customize PrestaShop for your
+ * needs please refer to http://www.prestashop.com for more information.
+ * We offer the best and most useful modules PrestaShop and modifications for your online store. 
+ *
+ * @category  PrestaShop Module
+ * @author    knowband.com <support@knowband.com>
+ * @copyright 2015 knowband
+ * @license   see file: LICENSE.txt
+ */
+
+ul.kb-form-list{
+    margin:0;
+    list-style-type: none;
+}
+
+ul.kb-form-list li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+/*    border-bottom: 1px solid #ddd;*/
+    vertical-align:top;
+/*    min-height: 80px;*/
+}
+
+ul.kb-form-list li.inerit-h{min-height:inherit !important;}
+
+ul.kb-form-list li.last-row{
+    border-bottom:0;
+    padding-bottom:0;
+}
+
+.help-block{font-size:11px;}
+
+ul.kb-form-list .kb-form-l{
+    display: inline-block;
+    padding-right: 4%;
+    width: 51.4%;
+}
+
+ul.kb-form-list .kb-form-r{
+    display: inline-block;
+    width: 48%;
+    margin-left: -5px;
+}
+
+.kb-form-fwidth{
+    width:100%;
+    display:block;
+}
+
+.form-lbl-indis, .form-field-indis{display:inline-block;}
+
+.form-lbl-indis{
+    width: 23%;
+    margin-right:4%;
+    vertical-align: top;
+}
+
+.form-field-indis{
+
+}
+
+.form-img-display{border:1px solid #515151; padding:5px;}
+
+#kb-marketplace-layout img.form-logo-display {
+    height: 150px;
+    width: 150px;
+}
+
+.form-banner-display {
+    height: 130px;
+    width: 100%;
+}
+
+.file-uploader a{
+    color:#428BCA;
+}
+
+.kb-search-box{
+    width:70%;
+}
+
+.kb-form-control{
+    display: block;
+    width: 100%;
+    height: 27px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+
+.select2-container{
+    height: auto !important;
+    padding: 0;    
+}
+
+.select2-container {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+}
+
+.select2-default {
+    color: #999 !important;
+}
+
+.select2-container .select2-choice {
+    display: block;
+    height: 28px;
+    padding: 0 0 0 8px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #aaa;
+    white-space: nowrap;
+    line-height: 26px;
+    color: #444;
+    text-decoration: none;
+    border-radius: 4px;
+    background-clip: padding-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #eeeeee 0%,#ffffff 50%);
+}
+
+.select2-choice{
+    border: 0;
+    border-radius: 2px;
+}
+
+.select2-container .select2-choice>.select2-chosen {
+    margin-right: 26px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: none;
+    width: auto;
+}
+
+.select2-container .select2-choice abbr {
+    display: none;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 24px;
+    top: 8px;
+    font-size: 1px;
+    text-decoration: none;
+    border: 0;
+    background: url("../../img/select2.png") right top no-repeat;
+    cursor: pointer;
+    outline: 0;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    display: inline-block;
+    width: 18px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    background-clip: padding-box;
+    background-color: #EEEEEE;
+}
+
+.select2-dropdown-open .select2-choice .select2-arrow {
+    background: transparent;
+    border-left: none;
+    filter: none;
+}
+
+.select2-choice .select2-arrow{
+    border-radius: 0 2px 2px 0;
+}
+
+.select2-container .select2-choice .select2-arrow b {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../../img/select2.png") no-repeat 0 1px;
+}
+
+.select2-dropdown-open .select2-choice .select2-arrow b {
+    background-position: -18px 1px;
+}
+
+.select2-offscreen, .select2-offscreen:focus {
+    clip: rect(0 0 0 0) !important;
+    width: 1px !important;
+    height: 1px !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    outline: 0 !important;
+    left: 0px !important;
+    top: 0px !important;
+    display: inline-block;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+.select2-container, .select2-drop, .select2-search, .select2-search input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.select2-drop {
+    width: 100%;
+    margin-top: -1px;
+    position: absolute;
+    z-index: 9999;
+    top: 100%;
+    background: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.15);
+}
+
+.select2-drop-active {
+    border-top: none;
+}
+
+.select2-display-none {
+    display: none;
+}
+
+.select2-search {
+    display: inline-block;
+    width: 100%;
+    min-height: 26px;
+    margin: 0;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: relative;
+    z-index: 10000;
+    white-space: nowrap;
+}
+
+.select2-search input {
+    width: 100%;
+    height: auto !important;
+    min-height: 26px;
+    padding: 4px 20px 4px 5px;
+    margin: 0;
+    outline: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #fff url("../../img/select2.png") no-repeat 100% -22px;
+    background: url("../../img/select2.png") no-repeat 100% -22px;
+}
+
+.select2-results {
+    max-height: 200px;
+    padding: 0 0 0 4px !important;
+    margin: 4px 4px 4px 0 !important;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.select2-results li {
+    list-style: none;
+    display: list-item;
+    background-image: none;
+}
+
+.select2-results .select2-highlighted {
+    background: #3875d7;
+    color: #fff;
+}
+
+.select2-results .select2-no-results, .select2-results .select2-searching, .select2-results .select2-selection-limit {
+    background: #f4f4f4;
+    display: list-item;
+    padding: 5px;
+}
+
+.select2-results .select2-result-label {
+    padding: 3px 7px 4px;
+    margin: 0;
+    cursor: pointer;
+    min-height: 1em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.media:first-child{
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+.media, .message-item, .bootstrap .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.media .pull-left {
+    float: left !important;
+    margin-right: 10px;
+}
+
+.media-heading {
+    margin: 0 0 5px;
+    font-size: 15px;
+}
+
+@media (max-width: 1200px){
+    ul.kb-form-list .kb-form-l{
+        width: 52%;
+    }
+}
+
+@media (max-width: 572px){
+    ul.kb-form-list .kb-form-l, ul.kb-form-list .kb-form-r{
+        width:100%;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .inpfwidth{
+        width:100% !important;
+    }
+}

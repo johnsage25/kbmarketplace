@@ -1,0 +1,17 @@
+Also register me as seller, kbmarketplace
+I have read the agreement and want to register as seller., kbmarketplace
+Click to Read, kbmarketplace
+No Return Policy Provided by Seller Yet., info_to_customer
+No Shipping Policy Provided by Seller Yet., info_to_customer
+Seller Reviews List, kbmarketplace
+Product Reviews, kbmarketplace
+Market Place Email Templates, kbmarketplace
+ID, kbmarketplace
+Subject, kbmarketplace
+Description, kbmarketplace
+Keywords like {{sample}} will be replace by dynamic content at the time of execution. Please do not remove these type of words from template, otherwise proper information will not be send in email to seller as well you. You can only change the position of these keywords in the template., kbmarketplace
+Template Editor, kbmarketplace
+Invalid characters: %s, kbmarketplace
+Email Content, kbmarketplace
+Template successfully updated., kbmarketplace
+Error occurred while updating the template., kbmarketplace

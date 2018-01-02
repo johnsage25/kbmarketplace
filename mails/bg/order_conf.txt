@@ -1,0 +1,36 @@
+
+[{shop_url}] 
+
+Hi {seller_name},
+
+A Customer has just placed an order for your products on {shop_name}! 
+
+CUSTOMER NAME: {firstname} {lastname}
+
+CUSTOMER EMAIL: {email}
+
+ORDER: {order_name} Placed on {date}		 
+
+REFERENCE
+
+PRODUCT
+
+UNIT PRICE
+
+QUANTITY
+
+TOTAL PRICE
+
+{products_txt}
+
+TOTAL PAID 
+
+{total_paid} 		 
+
+{delivery_block_txt} 
+
+{invoice_block_txt} 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

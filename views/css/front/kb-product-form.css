@@ -1,0 +1,214 @@
+/**
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future.If you wish to customize PrestaShop for your
+ * needs please refer to http://www.prestashop.com for more information.
+ * We offer the best and most useful modules PrestaShop and modifications for your online store. 
+ *
+ * @category  PrestaShop Module
+ * @author    knowband.com <support@knowband.com>
+ * @copyright 2015 knowband
+ * @license   see file: LICENSE.txt
+ */
+
+#kb-product-type-selection{
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #FAFAFA;
+}
+
+.kb-row{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.img-uploder-block{
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #F7F7F7;
+}
+
+.uploaded-img-info{
+    font-weight:bold;
+    margin-bottom:5px;
+/*    float:left;*/
+}
+
+.uploaded-img-action{
+/*    float:right;*/
+}
+
+.img-clickable-tag{
+    
+}
+
+.pro-img-smallprev{
+    width:90px;
+    height:90px;
+    padding:3px;
+    border:1px solid #ddd;
+    border-radius:3px;
+}
+
+.pakcage_pro_search{
+    width: 72%;
+    vertical-align: top;
+}
+
+.pakcage_pro_search .kb-search-box{
+    width: 50%;
+    vertical-align: top;
+}
+
+.packpro-prev-pack {
+    width: 200px;
+    border: solid 1px #eee;
+    padding: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float: left;
+}
+
+.packpro-prev-pack .packpro-prev-pack-img {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.packpro-prev-pack .packpro-prev-pack-title {
+    width: 100%;
+    padding: 0 5px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.packpro-prev-pack .packpro-prev-pack-ref {
+    color: #aaa;
+    width: 100%;
+    padding: 0 5px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.packpro-prev-pack .packpro-prev-pack-quantity {
+    background-color: #fff;
+    position: absolute;
+    padding: 0 4px;
+    top: 7px;
+    height: 25px;
+    min-width: 35px;
+    line-height: 23px;
+    border: solid 1px #ccc;
+    text-align: center;
+    left: 7px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.packpro-prev-pack .packpro-prev-pack-action {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.cobmination-field{
+    width:250px;
+}
+
+.package_pro_wfield{
+    max-width: 18%;
+}
+
+.package_pro_add_btn{
+    margin-top:2px;
+}
+
+.img-caption, .img-position{width:100%}
+
+.default_combination td{
+    background-color: #00aff0;
+}
+
+.default_combination td [class*='btn-']{
+    color: #fff;
+}
+
+.combination-imgs-list{
+    margin:0;
+}
+
+.combination-imgs-list li{
+    display:inline-block;
+    border:0 !important;
+    margin-right:15px;
+}
+
+.kb-inpselect.ship-multiselect{
+    height:115px;
+    margin-bottom:5px;
+}
+
+.ship-multiselect option{
+    padding:3px;
+}
+
+#ui-datepicker-div{
+    z-index: 99999 !important;
+}
+
+.ui-timepicker-div{
+    padding:0 10px;
+}
+
+.kb-panel-header-tab.error_tab{
+    border: 1px solid #E83939;
+    background-color: #FBB8B8;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    #kb-product-type-selection{
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 992px) and (min-width: 768px){
+    #kb-product-type-selection{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px){
+    #kb-product-type-selection{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    .cobmination-field {
+        width: 67%;
+    }
+    
+    .pakcage_pro_search{width:100%;}
+    .pakcage_pro_search .kb-search-box{display:block; width:100%; margin-bottom:5px;}
+    
+    .package_pro_add_btn {
+        display: block;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+			"http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+			<html>
+			    <head>
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, 
+				maximum-scale=1.0, user-scalable=0" />
+				<title>Message from {shop_name}</title>
+				<style>
+				@media only screen and (max-width: 300px){
+					body {
+					    width:218px !important;
+					    margin:auto !important;
+					}
+					.table {width:195px !important;margin:auto !important; background-color:#fff;}
+				}
+				@media only screen and (min-width: 301px) and (max-width: 500px) {
+				    body {width:308px!important;margin:auto!important;}
+				    .table {width:285px!important;margin:auto!important;}
+				}
+				@media only screen and (min-width: 501px) and (max-width: 768px) {
+				    body {width:478px!important;margin:auto!important;}
+				    .table {width:450px!important;margin:auto!important;}
+				    .logo, .titleblock, .linkbelow, .box, .footer, 
+					.space_footer{width:auto!important;display: block!important;}
+				}
+				@media only screen and (max-device-width: 480px) {
+				    body {width:308px!important;margin:auto!important;}
+				    .table {width:285px;margin:auto!important;}
+				}
+				</style>
+			    </head>
+			    <body style="-webkit-text-size-adjust:none;background-color:#fff;width:100%;
+				  font-family:Open-sans, sans-serif;color:#555454;font-size:13px;line-height:18px;margin:auto">
+				<table class="table table-mail" style="width:100%;
+				       -moz-box-shadow:0 0 5px #afafaf;-webkit-box-shadow:0 0 5px #afafaf;
+				       -o-box-shadow:0 0 5px #afafaf;box-shadow:0 0 5px #afafaf;
+				       filter:progid:DXImageTransform.Microsoft.Shadow(color=#afafaf,Direction=134,Strength=5)">
+				    <tr>
+					<td style="width:20px; padding:7px 0;">&nbsp;</td>
+					<td align="center" style="padding:7px 0">
+					    <table class="table" style="width:100%" >
+						<tr>
+						    <td align="center" class="logo" style="border-bottom:4px solid #333333;padding:7px 0">
+							<a title="{shop_name}" href="{shop_url}" style="color:#337ff1">
+							    <img src="{shop_logo}" alt="{shop_name}" />
+							</a>
+						    </td>
+						</tr>
+					    </table>
+					    <div style="text-align:left;"><p>Hi Admin,</p><div style="padding:10px;"><p style="color:#008000;font-size:15px;text-transform:uppercase;text-align:center;">
+					One of the your seller has requested for new category approval.</p><div style="margin-bottom:10px;width:100%;">
+					<p style="text-decoration:underline;font-style:italic;font-size:15px;font-weight:bold;">Requested Category Details:</p>
+					<p><b>Requested Category</b>:<br />{{requested_category}}</p><p><b>Reason</b>:<br />{{reason}}</p></div>
+					<div style="margin-bottom:10px;width:100%;">
+					<p style="text-decoration:underline;font-style:italic;font-size:15px;font-weight:bold;">Seller Details on Store:</p>
+					<div style="margin-bottom:10px;width:100%;"><span><b>Store:</b> {{shop_title}}</span><br /><span><b>Name:</b> {{seller_name}}</span>
+					<br /><span><b>Email:</b> {{seller_email}}</span><br /><span><b>Contact:</b> {{seller_contact}}</span></div></div>
+					<p>Please go to <a href="%7Bshop_url%7D">store</a> and approve the requested category.</p></div></div>
+					</td>
+					<td style="width:20px; padding:7px 0;">&nbsp;</td>
+				    </tr>
+				</table>
+			</body>
+			</html>
